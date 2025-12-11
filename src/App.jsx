@@ -2,11 +2,11 @@ import './App.css'
 import { HashRouter, Routes, Route } from 'react-router'
 import Navigation from './components/Navigation'
 import Footer from './components/Footer'
-import Home from './components/Home'
-import Equipment from './components/Equipment'
-import Lessons from './components/Lessons'
-import Resources from './components/Resources'
-import AboutMe from './components/AboutMe'
+import Home from './pages/Home'
+import Equipment from './pages/Equipment'
+import Lessons from './pages/Lessons'
+import Resources from './pages/Resources'
+import AboutMe from './pages/AboutMe'
 
 function App() {
   return (

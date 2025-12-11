@@ -66,3 +66,30 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* Form input styling for better contrast */
+.form-control,
+.form-select {
+  color: #000000 !important;
+  background-color: #ffffff !important;
+  border: 1px solid #6c757d !important;
+}
+
+.form-control:focus,
+.form-select:focus {
+  color: #000000 !important;
+  background-color: #ffffff !important;
+  border-color: #0d6efd !important;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25) !important;
+}
+
+.form-control::placeholder {
+  color: #6c757d !important;
+  opacity: 1 !important;
+}
+
+/* Make sure dropdown options are also dark text */
+.form-select option {
+  color: #000000 !important;
+  background-color: #ffffff !important;
+}
